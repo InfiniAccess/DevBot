@@ -8,7 +8,7 @@ class User(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Loaded user cog module.")
+        print("Loaded User module.")
 
     @commands.Cog.listener()
     async def on_member_join(self, member):

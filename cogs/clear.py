@@ -8,7 +8,7 @@ class Clear(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Loaded clear cog module.")
+        print("Loaded Clear module.")
 
     @commands.command()
     async def clear(self, ctx):
